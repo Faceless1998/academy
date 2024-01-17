@@ -1,0 +1,56 @@
+.course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.coursContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.card {
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    display: flex;
+    /* flex-direction: column; 
+    align-items: flex-start;  */
+}
+.coursImg {
+    width: 200px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.coursContent {
+    /* display: flex;
+    flex-direction: column; */
+    /* display: flex;
+    flex-direction: column; */
+    width: 400px;
+    flex: 1;
+    padding-top: 10px;
+} 
+.coursContent h1 {
+    text-align: center;
+}
+.coursContent h2 {
+    color: green; 
+}
+.coursContent button {
+    border: none;
+    background-color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.coursContent > *:not(h1) {
+    margin-left: 20px;
+    padding-top: 10px;
+}
